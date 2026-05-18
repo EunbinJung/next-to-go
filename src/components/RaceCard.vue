@@ -37,7 +37,7 @@
                     <p 
                         :class="
                             getRemainingSeconds(race.advertised_start.seconds) <= 0
-                            ? 'text-red-400 text-sm font-semibold'
+                            ? 'text-red-400 text-sm font-semibold animate-pulse'
                             : 'text-brand-mint'
                         "
                     >{{ formatTime(getRemainingSeconds( race.advertised_start.seconds )) }}</p>
