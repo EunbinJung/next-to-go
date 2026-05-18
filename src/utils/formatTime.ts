@@ -11,7 +11,7 @@ export function formatTime(seconds: number) {
 
   // If there are hours, include them in the format; otherwise, just show minutes and seconds
   if (hours > 0) {
-    return `${hours}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`
+    return `${String(hours).padStart(2, '0')}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`
   }
 
   return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`
