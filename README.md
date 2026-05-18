@@ -4,6 +4,10 @@
 
 A single page application that displays upcoming races in real time using the Next to Go API.
 
+## Preview
+
+![Preview](./src/assets/readme/desktop-preview.png)
+
 ## Features
 - Displays the next available races
 - Shows up to 5 races sorted by advertised start time
